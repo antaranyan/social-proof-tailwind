@@ -21961,6 +21961,12 @@ video {
   text-align: left;
 }
 
+.big-screen-rating {
+  display: flex;
+  justify-content: space-evenly;
+  width: 66.666667%;
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;
