@@ -3657,6 +3657,14 @@ video {
   background-image: url('/images/bg-pattern-top-mobile.svg');
 }
 
+.bg-lower-side{
+  background-image: url('/images/bg-pattern-bottom-desktop.svg');
+}
+
+.bg-upper-side{
+  background-image: url('/images/bg-pattern-top-desktop.svg');
+}
+
 .from-transparent{
   --gradient-from-color: transparent;
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -21961,12 +21969,6 @@ video {
   text-align: left;
 }
 
-.big-screen-rating {
-  display: flex;
-  justify-content: space-evenly;
-  width: 66.666667%;
-}
-
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;
@@ -25035,6 +25037,14 @@ video {
 
   .sm\:bg-hero-lg{
     background-image: url('/images/bg-pattern-top-mobile.svg');
+  }
+
+  .sm\:bg-lower-side{
+    background-image: url('/images/bg-pattern-bottom-desktop.svg');
+  }
+
+  .sm\:bg-upper-side{
+    background-image: url('/images/bg-pattern-top-desktop.svg');
   }
 
   .sm\:from-transparent{
@@ -46319,6 +46329,14 @@ video {
     background-image: url('/images/bg-pattern-top-mobile.svg');
   }
 
+  .md\:bg-lower-side{
+    background-image: url('/images/bg-pattern-bottom-desktop.svg');
+  }
+
+  .md\:bg-upper-side{
+    background-image: url('/images/bg-pattern-top-desktop.svg');
+  }
+
   .md\:from-transparent{
     --gradient-from-color: transparent;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -67601,6 +67619,14 @@ video {
     background-image: url('/images/bg-pattern-top-mobile.svg');
   }
 
+  .lg\:bg-lower-side{
+    background-image: url('/images/bg-pattern-bottom-desktop.svg');
+  }
+
+  .lg\:bg-upper-side{
+    background-image: url('/images/bg-pattern-top-desktop.svg');
+  }
+
   .lg\:from-transparent{
     --gradient-from-color: transparent;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -88881,6 +88907,14 @@ video {
 
   .xl\:bg-hero-lg{
     background-image: url('/images/bg-pattern-top-mobile.svg');
+  }
+
+  .xl\:bg-lower-side{
+    background-image: url('/images/bg-pattern-bottom-desktop.svg');
+  }
+
+  .xl\:bg-upper-side{
+    background-image: url('/images/bg-pattern-top-desktop.svg');
   }
 
   .xl\:from-transparent{

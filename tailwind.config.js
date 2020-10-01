@@ -18,6 +18,8 @@ module.exports = {
       },
       backgroundImage: {
         'hero-lg': "url('/images/bg-pattern-top-mobile.svg')",
+        'lower-side': "url('/images/bg-pattern-bottom-desktop.svg')",
+        'upper-side': "url('/images/bg-pattern-top-desktop.svg')",
       },
     },
   },
