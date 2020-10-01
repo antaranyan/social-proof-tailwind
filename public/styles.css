@@ -3653,6 +3653,10 @@ video {
   background-image: linear-gradient(to top left, var(--gradient-color-stops));
 }
 
+.bg-hero-lg{
+  background-image: url('/images/bg-pattern-top-mobile.svg');
+}
+
 .from-transparent{
   --gradient-from-color: transparent;
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -25023,6 +25027,10 @@ video {
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
   }
 
+  .sm\:bg-hero-lg{
+    background-image: url('/images/bg-pattern-top-mobile.svg');
+  }
+
   .sm\:from-transparent{
     --gradient-from-color: transparent;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -46299,6 +46307,10 @@ video {
 
   .md\:bg-gradient-to-tl{
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
+  }
+
+  .md\:bg-hero-lg{
+    background-image: url('/images/bg-pattern-top-mobile.svg');
   }
 
   .md\:from-transparent{
@@ -67579,6 +67591,10 @@ video {
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
   }
 
+  .lg\:bg-hero-lg{
+    background-image: url('/images/bg-pattern-top-mobile.svg');
+  }
+
   .lg\:from-transparent{
     --gradient-from-color: transparent;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -88855,6 +88871,10 @@ video {
 
   .xl\:bg-gradient-to-tl{
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
+  }
+
+  .xl\:bg-hero-lg{
+    background-image: url('/images/bg-pattern-top-mobile.svg');
   }
 
   .xl\:from-transparent{
