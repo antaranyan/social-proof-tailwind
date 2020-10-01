@@ -14,6 +14,7 @@ module.exports = {
         softPink: '#EE68A4',
         darkMagenta: '#937B92',
         lightMagenta: '#F7F2F7',
+        testimonial: '#521f50',
       },
     },
   },

@@ -9,3 +9,11 @@
 .card {
   @apply bg-lightMagenta rounded overflow-hidden shadow-md p-5;
 }
+
+.testimonial-card {
+  @apply bg-testimonial rounded-lg overflow-hidden p-6;
+}
+
+.testimonial-text {
+  @apply mt-8 text-lightMagenta text-left;
+}
