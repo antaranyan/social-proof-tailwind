@@ -5,3 +5,7 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.card {
+  @apply bg-lightMagenta rounded overflow-hidden shadow-md p-5;
+}
